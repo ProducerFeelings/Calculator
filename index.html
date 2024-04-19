@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Calculator</h1>
-    <div id="buttons">
+
+<h1>Calculator</h1>
+
+<div class="gray-background">
+    <div class="display">
+        <input type="text" id="display" readonly>
+        <button type="button" class="Ac">Ac</button>
+    </div>
+
+
+
+
+
+
+
+    <div  id="buttons">
+        
+
+        <div class="colorbuttons">
         <button type="button" class="number">0</button>
         <button type="button" class="number">1</button>
         <button type="button" class="number">2</button>
@@ -18,17 +36,24 @@
         <button type="button" class="number">7</button>
         <button type="button" class="number">8</button>
         <button type="button" class="number">9</button>
-        <button type="button" class="operator">+</button>
-        <button type="button" class="operator">-</button>
-        <button type="button" class="operator">*</button>
+
+
+
+        <div class="colorbuttons">
+
         <button type="button" class="operator">/</button>
-        <button type="button" class="clear">Clear</button>
+        <button type="button" class="operator">x</button>
+        <button type="button" class="operator">-</button>
+        <button type="button" class="operator">+</button>
+        
+    </div>
+    
+    </div>
+        
         <button type="button" class="equals">=</button>
     </div>
+</div>
 
-    <!-- Display -->
-    <input type="text" id="display" readonly>
-
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>

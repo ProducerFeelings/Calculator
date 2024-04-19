@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+
+.center {
+    display: f;
+}
+
+
+.gray-background {
+    width: 220px;
+    height: 200px;
+    background-color: grey;
+    border: solid black 5px;
+}
+
+.display {
+    margin-top: 10px;
+    border: 2px black;
+}
+
+.buttons {
+    margin-bottom: px;
+}
+
+
+
+.number {
+    color: white;
+    background-color: black;
+}
+
+.operator {
+    color: white;
+    background-color: black;
+}
+
+.equals {
+    color: white;
+    background-color: black;
+}
+
+.Ac {
+    color: white;
+    background-color: black;
+}
+
+#buttons {
+    display: flex
+    flex-wrap; flex-wrap: ;
+    justify-content: center;
+}
+
+.number, .operator, .equals {
+    width: 150x;
+    height: 25px;
+    margin: 8px;
+    justify-content: center;
+}
